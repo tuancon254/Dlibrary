@@ -1,0 +1,21 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.fuild-container{
+    background-image: url(http://tuyensinh.hau.edu.vn/upload/745806f60d4545c1ac2f524c51cd2f63.jpg);
+
+
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
