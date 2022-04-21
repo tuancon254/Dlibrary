@@ -35,7 +35,6 @@ class Users extends Model
             if($permission->contains('per_name',$action)){
                 return true;
             }
-        
         }
         return false;
     }

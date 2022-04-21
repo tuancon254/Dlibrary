@@ -28,10 +28,10 @@
                 @csrf
                 <div class="row">
                 <div class="col-md-6 col-lg-6">
-                    <div class="form-group">
+                    <div class="form-group"> 
                         <label>Title</label>
                         <input type="text" class="form-control @error('title') is-invalid @enderror" name="title" placeholder="Enter title" value="{{old('title')}}">
-                        <div style="color:red;height:10px">@error('title'){{ $message }} @enderror</div>
+                        <div style="color:red;height:10px">@error('title'){{ $message }} @enderror</div>  
                     </div>
                     <div class="form-group">
                         <label>Date of Issue</label>
